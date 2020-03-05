@@ -49,6 +49,7 @@ for y in [2019]:
 # タイムアウトを設定
 socket.setdefaulttimeout(10)
 
+
 for url, datestr in url_list:
     driver.get(url_base+url)
     links = driver.find_element_by_css_selector(".db > div#page > div#contents > div#main > div > div a")

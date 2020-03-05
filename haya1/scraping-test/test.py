@@ -19,7 +19,7 @@ df_col = ['year', 'date', 'field', 'race', 'race_name'
           , 'odds','popu']
 df = pd.DataFrame()
 
-for year in tqdm(range(2008, 2019)):
+for year in tqdm(range(2019, 2019)):
     for i in tqdm(range(1, 11)):
         for j in tqdm(range(1, 11)):
             for k in tqdm(range(1, 11)):
